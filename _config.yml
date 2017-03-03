@@ -4,7 +4,7 @@ author: Asingers
 description: Developer<br/>
 
 url: "http://9dic.com/light"
-
+baseurl: "/light"
 permalink: /:year/:month/:title/
 
 # Format
