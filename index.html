@@ -59,7 +59,7 @@ subtitle:   Developer
         {% for post in paginator.posts %}
         {% if post.post-card-type == 'article' %}
         <li class="mix" style="display: inline-block;" data-bound="">
-            <a href="{{/light}}{{ post.url }}">
+            <a href="{{site.baseurl}}{{ post.url }}">
                 <div class="card card--article not-visible">
                     <div class="card-body">
                         <div class="card-title card-title--articleIfNoImage">{{ post.title }}</div>
