@@ -8,7 +8,7 @@ url: "http://9dic.com/light"
 permalink: /:year/:month/:title/
 
 # Format
-highlighter: plain
+highlighter: rouge
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
